@@ -1,60 +1,26 @@
+# default config
 baseurl = "https://redpoint.photography"
-googleAnalytics = ""
 languageCode = "en-us"
-paginate = 6
-summaryLength = "10"
+title = "Adventure Photography"
 theme = "parsa-hugo"
-title = "Redpoint Photography"
-[[menu.main]]
-hasChildren = true
-name = "Homepage"
-url = ""
-weight = 1
-[[menu.main]]
-name = "Homepage 1"
-parent = "Homepage"
-url = "homepage/home-1"
-[[menu.main]]
-name = "Homepage 2"
-parent = "Homepage"
-url = "homepage/home-2"
-[[menu.main]]
-name = "About"
-url = "about"
-weight = 2
-[[menu.main]]
-name = "Contact"
-url = "contact"
-weight = 3
+summaryLength = "10"
+paginate = 6
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+
+# output
 [outputs]
 home = ["HTML", "RSS", "JSON"]
-[params]
-address = "6 rip carl Avenue CA 90733"
-author = "John Doe"
-author_image = "images/banner-img.png"
-bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
-contact_form_action = "#"
-copyright = "Copyright &copy; 2021"
-description = "This is meta description"
-email = "exmaple@ymail.com"
-home = "Home"
-layout = "1"
-logo = "images/redpoint-photography-logo-small.png"
-mobile = "+90 000 333 22"
-preloader = true
-search = true
-[params.cookies]
-enable = true
-expire_days = 2
-[params.instafeed]
-access_token = "IGQVJXUDFfZAFZAFcFNxU2NrTHBMRVlvU0syVU1nMkw4UW5vZAzZAweVJtT2lOLXBvd2xrX2ZAJMVM0NGRzUEFILU9rZA2lwcGI1b21MWG5xQWxwTnNrQ2gyTW05RXFidEtlajhSTzFnMkFHZAXlWQ094Q25vUgZDZD"
-enable = true
+
+# CSS Plugins
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
@@ -77,9 +43,75 @@ link = "plugins/search/fuse.min.js"
 link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
-[[params.social]]
-icon = "ti-instagram"
-url = "https://www.instagram.com/redpoint_pictures/"
+
+# navigation
+[[menu.main]]
+name = "Redpoint Photography"
+url = ""
+weight = 1
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Redpoint Photography"
+  name = "Services"
+  url = "homepage/home-1"
+
+  [[menu.main]]
+  parent = "Redpoint Photography"
+  name = "Homepage 2"
+  url = "homepage/home-2"
+
+[[menu.main]]
+name = "About Me"
+url = "about"
+weight = 2
+
+[[menu.main]]
+name = "Contact"
+url = "contact"
+weight = 3
+
+# deult parameter
+[params]
+logo = "images\redpoint-photography-logo-small.png"
+home = "Home"
+# theme layout ( two layout is available, "1" and "2" )
+layout = "1"
+# Meta data
+description = "Adventure Photography"
+# Preloader
+preloader = true
+# search
+search = true
+# about author
+author = "John Doe"
+author_image = "images/banner-img.png"
+bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
+# Contact info
+mobile = "+90 000 333 22"
+email = "exmaple@ymail.com"
+address = "6 rip carl Avenue CA 90733"
+# Contact Form Action
+contact_form_action = "#"
+# copyright
+copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)"
+
+# Instagram feed
+[params.instafeed]
+enable = true
+access_token = "IGQVJYX1NqRmZA3VzN1WVlBak5MUy0wVWVLVl9GcTdYZAUxqbnhOcFNYdTlpbEdMLVlQcXM3a1FoazJxZAFVxNjZA0dmJMcjRjUGw1WTREWW5YNVJnTDBBZA21yblJrcUhrTi1VWkE3dW1hT041U1BTTnhPUQZDZD"
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+# social site
 [[params.social]]
 icon = "ti-facebook"
 url = "https://www.facebook.com/Redpoint-photography-100694508340796"
+
+[[params.social]]
+icon = "ti-instagram"
+url = "https://www.instagram.com/redpoint_pictures/"
+
