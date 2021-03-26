@@ -29,18 +29,18 @@ weight = 3
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
-address = "6 rip carl Avenue CA 90733"
+address = "10 Jay St, Canton NY 13617"
 author = "John Doe"
 author_image = "images/banner-img.png"
-bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
+bio = "I am a freelance adventure photographer based in the Adirondacks."
 contact_form_action = "#"
-copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)"
+copyright = "Copyright &copy; 2021"
 description = "Adventure Photography"
-email = "exmaple@ymail.com"
+email = "henry@redpoint.photography"
 home = "Home"
 layout = "1"
 logo = "images/redpoint-photography-logo-small.png"
-mobile = "+90 000 333 22"
+mobile = ""
 preloader = true
 search = true
 [params.cookies]
