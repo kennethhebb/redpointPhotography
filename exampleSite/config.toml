@@ -79,7 +79,7 @@ link = "plugins/search/mark.js"
 link = "plugins/search/search.js"
 [[params.social]]
 icon = "ti-facebook"
-url = "#"
+url = "https://www.facebook.com/Redpoint-photography-100694508340796"
 [[params.social]]
 icon = "ti-twitter-alt"
 url = "#"
