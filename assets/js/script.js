@@ -1,10 +1,5 @@
 (function ($) {
-  "use strict";
-
-  //no right click on image
-  // $("body").on("contextmenu", "img", function (e) {
-  //   return false;
-  // });
+  ("use strict");
 
   // Preloader js
   $(window).on("load", function () {
@@ -111,5 +106,10 @@
       remotePath: _this.attr("data-file"),
       remoteTarget: _this.attr("data-target"),
     });
+  });
+
+  //no right click on image
+  $("body").on("contextmenu", "img", function (e) {
+    return false;
   });
 })(jQuery);
