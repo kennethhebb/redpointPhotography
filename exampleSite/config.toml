@@ -78,14 +78,8 @@ link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
 [[params.social]]
+icon = "ti-instagram"
+url = "https://www.instagram.com/redpoint_pictures/"
+[[params.social]]
 icon = "ti-facebook"
 url = "https://www.facebook.com/Redpoint-photography-100694508340796"
-[[params.social]]
-icon = "ti-twitter-alt"
-url = "#"
-[[params.social]]
-icon = "ti-linkedin"
-url = "#"
-[[params.social]]
-icon = "ti-github"
-url = "#"
