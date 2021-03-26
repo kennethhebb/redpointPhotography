@@ -2,9 +2,9 @@
   "use strict";
 
   //no right click on image
-  $("body").on("contextmenu", "img", function (e) {
-    return false;
-  });
+  // $("body").on("contextmenu", "img", function (e) {
+  //   return false;
+  // });
 
   // Preloader js
   $(window).on("load", function () {
