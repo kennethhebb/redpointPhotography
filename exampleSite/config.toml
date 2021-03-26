@@ -47,7 +47,7 @@ search = true
 enable = true
 expire_days = 2
 [params.instafeed]
-access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
+access_token = "IGQVJXUDFfZAFZAFcFNxU2NrTHBMRVlvU0syVU1nMkw4UW5vZAzZAweVJtT2lOLXBvd2xrX2ZAJMVM0NGRzUEFILU9rZA2lwcGI1b21MWG5xQWxwTnNrQ2gyTW05RXFidEtlajhSTzFnMkFHZAXlWQ094Q25vUgZDZD"
 enable = true
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
