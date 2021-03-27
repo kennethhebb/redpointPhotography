@@ -25,4 +25,5 @@ fields:
   label: type
 pages:
 - exampleSite/content/blog/early-spring-climbing.md
+- exampleSite/content/blog/misc-climbing.md
 - exampleSite/content/blog/twin-falls-with-luke.md
