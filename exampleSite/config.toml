@@ -16,7 +16,7 @@ weight = 3
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
-address = "10 Jay St, Canton NY 13617"
+address = "Canton NY 13617"
 author = "Henry Hebb"
 author_image = "images/img_0146.jpg"
 bio = "I am a freelance adventure photographer based in the Adirondacks."
