@@ -4,7 +4,7 @@ languageCode = "en-us"
 paginate = 6
 summaryLength = "10"
 theme = "parsa-hugo"
-title = "Adventure Photography"
+title = "Redpoint Adventure Photography"
 [[menu.main]]
 name = "About Me"
 url = "about"
